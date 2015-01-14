@@ -1,0 +1,28 @@
+#!/bin/sh
+#
+# $Id: v2u_kvm_ui.arch 15792 2012-02-25 09:48:58Z monich $
+#
+# Script to determine the CPU type
+#
+
+OS=`uname -s | tr '[A-Z]' '[a-z]'`
+
+if [ "$OS" = linux ] ; then
+    CPU=`uname -i`
+else
+    CPU=unknown
+fi
+
+if [ "$CPU" = unknown ] ; then
+    CPU=`uname -p`
+    if [ "$CPU" = unknown ] ; then
+	CPU=`uname -m`
+    fi
+fi
+
+# Substitiute i*86 with i386
+case "$CPU" in
+    i*86) CPU=i386;;
+esac
+
+echo $CPU

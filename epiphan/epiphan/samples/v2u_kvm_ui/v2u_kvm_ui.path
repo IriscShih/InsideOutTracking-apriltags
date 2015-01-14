@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# $Id: v2u_kvm_ui.path 15792 2012-02-25 09:48:58Z monich $
+#
+# Script to determine the path to v2u_kvm_ui source directory
+#
+
+DIR=`dirname $0`
+echo `cd $DIR; pwd`

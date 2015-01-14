@@ -1,0 +1,27 @@
+# -*- Mode: makefile -*-
+# This file is generated automatically.
+# Run 'make veryclean' and  'make' to update it.
+$(DEBUG_BUILD_DIR)/xmlparse$(EXPAT_DIR)o: lib/xmlparse$(EXPAT_DIR)c expat_config$(EXPAT_DIR)h lib/ascii$(EXPAT_DIR)h lib/expat$(EXPAT_DIR)h \
+  lib/expat_external$(EXPAT_DIR)h lib/internal$(EXPAT_DIR)h lib/xmltok$(EXPAT_DIR)h lib/xmlrole$(EXPAT_DIR)h
+$(DEBUG_BUILD_DIR)/xmlrole$(EXPAT_DIR)o: lib/xmlrole$(EXPAT_DIR)c expat_config$(EXPAT_DIR)h lib/expat_external$(EXPAT_DIR)h \
+  lib/internal$(EXPAT_DIR)h lib/xmlrole$(EXPAT_DIR)h lib/xmltok$(EXPAT_DIR)h lib/ascii$(EXPAT_DIR)h
+$(DEBUG_BUILD_DIR)/xmltok$(EXPAT_DIR)o: lib/xmltok$(EXPAT_DIR)c expat_config$(EXPAT_DIR)h lib/expat_external$(EXPAT_DIR)h lib/internal$(EXPAT_DIR)h \
+  lib/xmltok$(EXPAT_DIR)h lib/nametab$(EXPAT_DIR)h lib/xmltok_impl$(EXPAT_DIR)h lib/ascii$(EXPAT_DIR)h \
+  lib/xmltok_impl$(EXPAT_DIR)c lib/asciitab$(EXPAT_DIR)h lib/utf8tab$(EXPAT_DIR)h lib/iasciitab$(EXPAT_DIR)h \
+  lib/latin1tab$(EXPAT_DIR)h lib/xmltok_ns$(EXPAT_DIR)c
+$(RELEASE_BUILD_DIR)/xmlparse$(EXPAT_DIR)o: lib/xmlparse$(EXPAT_DIR)c expat_config$(EXPAT_DIR)h lib/ascii$(EXPAT_DIR)h lib/expat$(EXPAT_DIR)h \
+  lib/expat_external$(EXPAT_DIR)h lib/internal$(EXPAT_DIR)h lib/xmltok$(EXPAT_DIR)h lib/xmlrole$(EXPAT_DIR)h
+$(RELEASE_BUILD_DIR)/xmlrole$(EXPAT_DIR)o: lib/xmlrole$(EXPAT_DIR)c expat_config$(EXPAT_DIR)h lib/expat_external$(EXPAT_DIR)h \
+  lib/internal$(EXPAT_DIR)h lib/xmlrole$(EXPAT_DIR)h lib/xmltok$(EXPAT_DIR)h lib/ascii$(EXPAT_DIR)h
+$(RELEASE_BUILD_DIR)/xmltok$(EXPAT_DIR)o: lib/xmltok$(EXPAT_DIR)c expat_config$(EXPAT_DIR)h lib/expat_external$(EXPAT_DIR)h lib/internal$(EXPAT_DIR)h \
+  lib/xmltok$(EXPAT_DIR)h lib/nametab$(EXPAT_DIR)h lib/xmltok_impl$(EXPAT_DIR)h lib/ascii$(EXPAT_DIR)h \
+  lib/xmltok_impl$(EXPAT_DIR)c lib/asciitab$(EXPAT_DIR)h lib/utf8tab$(EXPAT_DIR)h lib/iasciitab$(EXPAT_DIR)h \
+  lib/latin1tab$(EXPAT_DIR)h lib/xmltok_ns$(EXPAT_DIR)c
+$(PROFILE_BUILD_DIR)/xmlparse$(EXPAT_DIR)o: lib/xmlparse$(EXPAT_DIR)c expat_config$(EXPAT_DIR)h lib/ascii$(EXPAT_DIR)h lib/expat$(EXPAT_DIR)h \
+  lib/expat_external$(EXPAT_DIR)h lib/internal$(EXPAT_DIR)h lib/xmltok$(EXPAT_DIR)h lib/xmlrole$(EXPAT_DIR)h
+$(PROFILE_BUILD_DIR)/xmlrole$(EXPAT_DIR)o: lib/xmlrole$(EXPAT_DIR)c expat_config$(EXPAT_DIR)h lib/expat_external$(EXPAT_DIR)h \
+  lib/internal$(EXPAT_DIR)h lib/xmlrole$(EXPAT_DIR)h lib/xmltok$(EXPAT_DIR)h lib/ascii$(EXPAT_DIR)h
+$(PROFILE_BUILD_DIR)/xmltok$(EXPAT_DIR)o: lib/xmltok$(EXPAT_DIR)c expat_config$(EXPAT_DIR)h lib/expat_external$(EXPAT_DIR)h lib/internal$(EXPAT_DIR)h \
+  lib/xmltok$(EXPAT_DIR)h lib/nametab$(EXPAT_DIR)h lib/xmltok_impl$(EXPAT_DIR)h lib/ascii$(EXPAT_DIR)h \
+  lib/xmltok_impl$(EXPAT_DIR)c lib/asciitab$(EXPAT_DIR)h lib/utf8tab$(EXPAT_DIR)h lib/iasciitab$(EXPAT_DIR)h \
+  lib/latin1tab$(EXPAT_DIR)h lib/xmltok_ns$(EXPAT_DIR)c

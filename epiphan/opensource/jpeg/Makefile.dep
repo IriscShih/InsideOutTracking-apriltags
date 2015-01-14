@@ -1,0 +1,279 @@
+# -*- Mode: makefile -*-
+# This file is generated automatically.
+# Run 'make veryclean' and  'make' to update it.
+$(DEBUG_BUILD_DIR)/jcapimin.o: jcapimin.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jcapistd.o: jcapistd.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jccoefct.o: jccoefct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jccolor.o: jccolor.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jcdctmgr.o: jcdctmgr.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(DEBUG_BUILD_DIR)/jchuff.o: jchuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jchuff.h
+$(DEBUG_BUILD_DIR)/jcinit.o: jcinit.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jcmainct.o: jcmainct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jcmarker.o: jcmarker.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jcmaster.o: jcmaster.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jcomapi.o: jcomapi.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jcparam.o: jcparam.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jcphuff.o: jcphuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jchuff.h
+$(DEBUG_BUILD_DIR)/jcprepct.o: jcprepct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jcsample.o: jcsample.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jctrans.o: jctrans.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdapimin.o: jdapimin.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdapistd.o: jdapistd.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdatadst.o: jdatadst.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jerror.h
+$(DEBUG_BUILD_DIR)/jdatasrc.o: jdatasrc.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jerror.h
+$(DEBUG_BUILD_DIR)/jdcoefct.o: jdcoefct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdcolor.o: jdcolor.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jddctmgr.o: jddctmgr.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(DEBUG_BUILD_DIR)/jdhuff.o: jdhuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jdhuff.h
+$(DEBUG_BUILD_DIR)/jdinput.o: jdinput.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdmainct.o: jdmainct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdmarker.o: jdmarker.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdmaster.o: jdmaster.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdmerge.o: jdmerge.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdphuff.o: jdphuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jdhuff.h
+$(DEBUG_BUILD_DIR)/jdpostct.o: jdpostct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdsample.o: jdsample.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jdtrans.o: jdtrans.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jerror.o: jerror.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jversion.h jerror.h
+$(DEBUG_BUILD_DIR)/jfdctflt.o: jfdctflt.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(DEBUG_BUILD_DIR)/jfdctfst.o: jfdctfst.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(DEBUG_BUILD_DIR)/jfdctint.o: jfdctint.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(DEBUG_BUILD_DIR)/jidctflt.o: jidctflt.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(DEBUG_BUILD_DIR)/jidctfst.o: jidctfst.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(DEBUG_BUILD_DIR)/jidctint.o: jidctint.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(DEBUG_BUILD_DIR)/jidctred.o: jidctred.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(DEBUG_BUILD_DIR)/jquant1.o: jquant1.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jquant2.o: jquant2.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jutils.o: jutils.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(DEBUG_BUILD_DIR)/jmemmgr.o: jmemmgr.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jmemsys.h
+$(DEBUG_BUILD_DIR)/jmemnobs.o: jmemnobs.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jmemsys.h
+$(RELEASE_BUILD_DIR)/jcapimin.o: jcapimin.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jcapistd.o: jcapistd.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jccoefct.o: jccoefct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jccolor.o: jccolor.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jcdctmgr.o: jcdctmgr.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(RELEASE_BUILD_DIR)/jchuff.o: jchuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jchuff.h
+$(RELEASE_BUILD_DIR)/jcinit.o: jcinit.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jcmainct.o: jcmainct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jcmarker.o: jcmarker.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jcmaster.o: jcmaster.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jcomapi.o: jcomapi.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jcparam.o: jcparam.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jcphuff.o: jcphuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jchuff.h
+$(RELEASE_BUILD_DIR)/jcprepct.o: jcprepct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jcsample.o: jcsample.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jctrans.o: jctrans.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdapimin.o: jdapimin.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdapistd.o: jdapistd.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdatadst.o: jdatadst.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jerror.h
+$(RELEASE_BUILD_DIR)/jdatasrc.o: jdatasrc.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jerror.h
+$(RELEASE_BUILD_DIR)/jdcoefct.o: jdcoefct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdcolor.o: jdcolor.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jddctmgr.o: jddctmgr.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(RELEASE_BUILD_DIR)/jdhuff.o: jdhuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jdhuff.h
+$(RELEASE_BUILD_DIR)/jdinput.o: jdinput.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdmainct.o: jdmainct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdmarker.o: jdmarker.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdmaster.o: jdmaster.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdmerge.o: jdmerge.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdphuff.o: jdphuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jdhuff.h
+$(RELEASE_BUILD_DIR)/jdpostct.o: jdpostct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdsample.o: jdsample.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jdtrans.o: jdtrans.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jerror.o: jerror.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jversion.h jerror.h
+$(RELEASE_BUILD_DIR)/jfdctflt.o: jfdctflt.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(RELEASE_BUILD_DIR)/jfdctfst.o: jfdctfst.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(RELEASE_BUILD_DIR)/jfdctint.o: jfdctint.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(RELEASE_BUILD_DIR)/jidctflt.o: jidctflt.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(RELEASE_BUILD_DIR)/jidctfst.o: jidctfst.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(RELEASE_BUILD_DIR)/jidctint.o: jidctint.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(RELEASE_BUILD_DIR)/jidctred.o: jidctred.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(RELEASE_BUILD_DIR)/jquant1.o: jquant1.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jquant2.o: jquant2.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jutils.o: jutils.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(RELEASE_BUILD_DIR)/jmemmgr.o: jmemmgr.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jmemsys.h
+$(RELEASE_BUILD_DIR)/jmemnobs.o: jmemnobs.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jmemsys.h
+$(PROFILE_BUILD_DIR)/jcapimin.o: jcapimin.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jcapistd.o: jcapistd.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jccoefct.o: jccoefct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jccolor.o: jccolor.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jcdctmgr.o: jcdctmgr.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(PROFILE_BUILD_DIR)/jchuff.o: jchuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jchuff.h
+$(PROFILE_BUILD_DIR)/jcinit.o: jcinit.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jcmainct.o: jcmainct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jcmarker.o: jcmarker.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jcmaster.o: jcmaster.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jcomapi.o: jcomapi.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jcparam.o: jcparam.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jcphuff.o: jcphuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jchuff.h
+$(PROFILE_BUILD_DIR)/jcprepct.o: jcprepct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jcsample.o: jcsample.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jctrans.o: jctrans.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdapimin.o: jdapimin.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdapistd.o: jdapistd.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdatadst.o: jdatadst.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jerror.h
+$(PROFILE_BUILD_DIR)/jdatasrc.o: jdatasrc.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jerror.h
+$(PROFILE_BUILD_DIR)/jdcoefct.o: jdcoefct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdcolor.o: jdcolor.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jddctmgr.o: jddctmgr.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(PROFILE_BUILD_DIR)/jdhuff.o: jdhuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jdhuff.h
+$(PROFILE_BUILD_DIR)/jdinput.o: jdinput.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdmainct.o: jdmainct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdmarker.o: jdmarker.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdmaster.o: jdmaster.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdmerge.o: jdmerge.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdphuff.o: jdphuff.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jdhuff.h
+$(PROFILE_BUILD_DIR)/jdpostct.o: jdpostct.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdsample.o: jdsample.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jdtrans.o: jdtrans.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jerror.o: jerror.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jversion.h jerror.h
+$(PROFILE_BUILD_DIR)/jfdctflt.o: jfdctflt.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(PROFILE_BUILD_DIR)/jfdctfst.o: jfdctfst.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(PROFILE_BUILD_DIR)/jfdctint.o: jfdctint.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(PROFILE_BUILD_DIR)/jidctflt.o: jidctflt.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(PROFILE_BUILD_DIR)/jidctfst.o: jidctfst.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(PROFILE_BUILD_DIR)/jidctint.o: jidctint.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(PROFILE_BUILD_DIR)/jidctred.o: jidctred.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jdct.h
+$(PROFILE_BUILD_DIR)/jquant1.o: jquant1.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jquant2.o: jquant2.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jutils.o: jutils.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h
+$(PROFILE_BUILD_DIR)/jmemmgr.o: jmemmgr.c jinclude.h jconfig.h jconfig.st jpeglib.h jmorecfg.h \
+  jpegint.h jerror.h jmemsys.h
+$(PROFILE_BUILD_DIR)/jmemnobs.o: jmemnobs.c jinclude.h jconfig.h jconfig.st jpeglib.h \
+  jmorecfg.h jpegint.h jerror.h jmemsys.h

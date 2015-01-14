@@ -1,0 +1,117 @@
+Determining if the function getsockname exists in the socket failed with the following output:
+Change Dir: /Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2671092775/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2671092775.dir/build.make CMakeFiles/cmTryCompileExec2671092775.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2671092775.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getsockname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2671092775.dir/CheckFunctionExists.c.o   -c "/Applications/CMake 2.8-12.app/Contents/share/cmake-2.8/Modules/CheckFunctionExists.c"
+Linking C executable cmTryCompileExec2671092775
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_link_script CMakeFiles/cmTryCompileExec2671092775.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getsockname -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2671092775.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2671092775  -lsocket 
+ld: library not found for -lsocket
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTryCompileExec2671092775] Error 1
+make: *** [cmTryCompileExec2671092775/fast] Error 2
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3417714414/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3417714414.dir/build.make CMakeFiles/cmTryCompileExec3417714414.dir/build
+"/Applications/CMake 2.8-12.app/Contents/bin/cmake" -E cmake_progress_report /Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3417714414.dir/CMAKE_SIZEOF___INT64.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec3417714414.dir/CMAKE_SIZEOF___INT64.c.o   -c /Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:19:12: error: use of undeclared identifier '__int64'; did you mean '__int64_t'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/i386/_types.h:46:20: note: '__int64_t' declared here
+typedef long long               __int64_t;
+                                ^
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:20:12: error: use of undeclared identifier '__int64'; did you mean '__int64_t'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/i386/_types.h:46:20: note: '__int64_t' declared here
+typedef long long               __int64_t;
+                                ^
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:21:12: error: use of undeclared identifier '__int64'; did you mean '__int64_t'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/i386/_types.h:46:20: note: '__int64_t' declared here
+typedef long long               __int64_t;
+                                ^
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:22:12: error: use of undeclared identifier '__int64'; did you mean '__int64_t'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/i386/_types.h:46:20: note: '__int64_t' declared here
+typedef long long               __int64_t;
+                                ^
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:23:12: error: use of undeclared identifier '__int64'; did you mean '__int64_t'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:17:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include/i386/_types.h:46:20: note: '__int64_t' declared here
+typedef long long               __int64_t;
+                                ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3417714414.dir/CMAKE_SIZEOF___INT64.c.o] Error 1
+make: *** [cmTryCompileExec3417714414/fast] Error 2
+
+/Users/pearl790131/apriltags/OpenIGTLink-build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

@@ -1,0 +1,697 @@
+# -*- Mode: makefile -*-
+# This file is generated automatically.
+# Run 'make veryclean' and  'make' to update it.
+$(DEBUG_BUILD_DIR)/s_base32.o: src/s_base32.c include/s_base32.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_base64.o: src/s_base64.c include/s_base64.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_bitset.o: src/s_bitset.c include/s_bitset.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_buf.o: src/s_buf.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_cs.o: src/s_cs.c include/s_cs.h include/s_mutex.h include/s_lock.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_lockp.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_dom.o: src/s_dom.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h include/s_util.h \
+  include/s_itr.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_queue.h include/s_dom.h include/s_xml.h \
+  src/s_xmlp.h
+$(DEBUG_BUILD_DIR)/s_event.o: src/s_event.c include/s_event.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_file.o: src/s_file.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_util.h include/s_itr.h include/s_vector.h \
+  include/s_random.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_fio.o: src/s_fio.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_fio.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_fmem.o: src/s_fmem.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_fnull.o: src/s_fnull.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_fsock.o: src/s_fsock.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_fsplit.o: src/s_fsplit.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_fsub.o: src/s_fsub.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_futil.o: src/s_futil.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h src/s_iop.h include/s_futil.h \
+  src/s_itrp.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_fwrap.o: src/s_fwrap.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_fzio.o: src/s_fzio.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_fzip.o: src/s_fzip.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_hash.o: src/s_hash.c include/s_hash.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_util.h \
+  include/s_buf.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h src/s_itrp.h src/s_libp.h \
+  include/s_thread.h
+$(DEBUG_BUILD_DIR)/s_hist.o: src/s_hist.c include/s_hist.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_file.h include/s_buf.h \
+  include/s_strbuf.h include/s_util.h include/s_itr.h include/s_vector.h \
+  include/s_random.h include/s_futil.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_init.o: src/s_init.c include/s_lib.h include/s_base32.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_base64.h \
+  include/s_bitset.h include/s_cs.h include/s_mutex.h include/s_lock.h \
+  include/s_dom.h include/s_xml.h include/s_event.h include/s_futil.h \
+  include/s_itr.h include/s_hash.h include/s_hist.h include/s_math.h \
+  include/s_md.h include/s_mem.h include/s_ntutil.h include/s_opt.h \
+  include/s_vector.h include/s_random.h include/s_prop.h \
+  include/s_queue.h include/s_ring.h include/s_rwlock.h \
+  include/s_thread.h include/s_stack.h include/s_util.h include/s_wkq.h
+$(DEBUG_BUILD_DIR)/s_itr.o: src/s_itr.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(DEBUG_BUILD_DIR)/s_itra.o: src/s_itra.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(DEBUG_BUILD_DIR)/s_itrc.o: src/s_itrc.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(DEBUG_BUILD_DIR)/s_itrf.o: src/s_itrf.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(DEBUG_BUILD_DIR)/s_itrs.o: src/s_itrs.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(DEBUG_BUILD_DIR)/s_lib.o: src/s_lib.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_libp.h
+$(DEBUG_BUILD_DIR)/s_lock.o: src/s_lock.c include/s_lock.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_lockp.h include/s_thread.h \
+  include/s_mutex.h include/s_rwlock.h include/s_queue.h include/s_itr.h \
+  include/s_event.h include/s_cs.h
+$(DEBUG_BUILD_DIR)/s_math.o: src/s_math.c include/s_math.h include/s_strbuf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h
+$(DEBUG_BUILD_DIR)/s_md.o: src/s_md.c src/s_mdp.h include/s_md.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h
+$(DEBUG_BUILD_DIR)/s_md5.o: src/s_md5.c src/s_mdp.h include/s_md.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mem.h \
+  include/s_buf.h
+$(DEBUG_BUILD_DIR)/s_mem.o: src/s_mem.c include/s_def.h include/s_os.h include/s_unix.h \
+  include/s_ver.h include/s_util.h include/s_itr.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_libp.h include/s_mem.h include/s_mutex.h \
+  include/s_lock.h include/s_queue.h
+$(DEBUG_BUILD_DIR)/s_mfp.o: src/s_mfp.c include/s_math.h include/s_strbuf.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h
+$(DEBUG_BUILD_DIR)/s_mpm.o: src/s_mpm.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_math.h include/s_strbuf.h
+$(DEBUG_BUILD_DIR)/s_mutex.o: src/s_mutex.c include/s_mutex.h include/s_lock.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_lockp.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_net.o: src/s_net.c include/s_lib.h include/s_base32.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_base64.h \
+  include/s_bitset.h include/s_cs.h include/s_mutex.h include/s_lock.h \
+  include/s_dom.h include/s_xml.h include/s_event.h include/s_futil.h \
+  include/s_itr.h include/s_hash.h include/s_hist.h include/s_math.h \
+  include/s_md.h include/s_mem.h include/s_ntutil.h include/s_opt.h \
+  include/s_vector.h include/s_random.h include/s_prop.h \
+  include/s_queue.h include/s_ring.h include/s_rwlock.h \
+  include/s_thread.h include/s_stack.h include/s_util.h include/s_wkq.h
+$(DEBUG_BUILD_DIR)/s_opt.o: src/s_opt.c include/s_opt.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_file.h include/s_buf.h \
+  include/s_strbuf.h include/s_vector.h include/s_itr.h \
+  include/s_random.h include/s_mem.h include/s_util.h include/s_futil.h \
+  include/s_queue.h
+$(DEBUG_BUILD_DIR)/s_parse.o: src/s_parse.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(DEBUG_BUILD_DIR)/s_prop.o: src/s_prop.c include/s_prop.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_queue.h include/s_itr.h \
+  include/s_hash.h include/s_file.h include/s_buf.h include/s_strbuf.h \
+  include/s_xml.h include/s_util.h include/s_vector.h include/s_random.h \
+  include/s_futil.h src/s_itrp.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_propx.o: src/s_propx.c include/s_xml.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_strbuf.h include/s_file.h \
+  include/s_buf.h include/s_prop.h include/s_queue.h include/s_itr.h \
+  include/s_hash.h
+$(DEBUG_BUILD_DIR)/s_ring.o: src/s_ring.c include/s_ring.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_rwlock.o: src/s_rwlock.c include/s_rwlock.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_queue.h \
+  include/s_itr.h include/s_thread.h include/s_event.h include/s_mutex.h \
+  include/s_lock.h src/s_lockp.h include/s_util.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_queue.o: src/s_queue.c include/s_queue.h include/s_itr.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_itrp.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_random.o: src/s_random.c include/s_random.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mutex.h \
+  include/s_lock.h include/s_util.h include/s_itr.h include/s_buf.h \
+  include/s_vector.h include/s_file.h include/s_strbuf.h src/s_libp.h \
+  include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_sha1.o: src/s_sha1.c src/s_mdp.h include/s_md.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mem.h \
+  include/s_buf.h
+$(DEBUG_BUILD_DIR)/s_stack.o: src/s_stack.c include/s_stack.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_str.o: src/s_str.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_strbuf.o: src/s_strbuf.c include/s_strbuf.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_util.h \
+  include/s_itr.h include/s_buf.h include/s_vector.h include/s_random.h \
+  include/s_file.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_thread.o: src/s_thread.c src/s_libp.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_thrp.h include/s_thread.h \
+  include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_time.o: src/s_time.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(DEBUG_BUILD_DIR)/s_trace.o: src/s_trace.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_util.h include/s_itr.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(DEBUG_BUILD_DIR)/s_utf8.o: src/s_utf8.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_util.o: src/s_util.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(DEBUG_BUILD_DIR)/s_vector.o: src/s_vector.c include/s_vector.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_itr.h \
+  include/s_random.h src/s_itrp.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_wkq.o: src/s_wkq.c include/s_wkq.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_event.h include/s_queue.h \
+  include/s_itr.h include/s_mutex.h include/s_lock.h include/s_thread.h \
+  include/s_util.h include/s_buf.h include/s_vector.h include/s_random.h \
+  include/s_file.h include/s_strbuf.h src/s_libp.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/s_xml.o: src/s_xml.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_xmlp.h include/s_xml.h \
+  include/s_strbuf.h include/s_file.h include/s_buf.h include/s_util.h \
+  include/s_itr.h include/s_vector.h include/s_random.h
+$(DEBUG_BUILD_DIR)/s_xmlp.o: src/s_xmlp.c src/s_xmlp.h include/s_xml.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_strbuf.h \
+  include/s_file.h include/s_buf.h include/s_util.h include/s_itr.h \
+  include/s_vector.h include/s_random.h include/s_mem.h \
+  ../expat/lib/expat.h ../expat/lib/expat_external.h
+$(DEBUG_BUILD_DIR)/u_event.o: src/unix/u_event.c include/s_event.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h
+$(DEBUG_BUILD_DIR)/u_furl.o: src/unix/u_furl.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h include/s_util.h include/s_itr.h \
+  include/s_vector.h include/s_random.h include/s_event.h \
+  include/s_thread.h
+$(DEBUG_BUILD_DIR)/u_futil.o: src/unix/u_futil.c include/s_util.h include/s_itr.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_buf.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_iop.h include/s_futil.h src/s_itrp.h \
+  include/s_mem.h
+$(DEBUG_BUILD_DIR)/u_mutex.o: src/unix/u_mutex.c include/s_mutex.h include/s_lock.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_lockp.h
+$(DEBUG_BUILD_DIR)/u_thread.o: src/unix/u_thread.c src/s_libp.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h src/s_thrp.h \
+  include/s_thread.h include/s_mem.h
+$(DEBUG_BUILD_DIR)/u_trace.o: src/unix/u_trace.c include/s_util.h include/s_itr.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_buf.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(RELEASE_BUILD_DIR)/s_base32.o: src/s_base32.c include/s_base32.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_base64.o: src/s_base64.c include/s_base64.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_bitset.o: src/s_bitset.c include/s_bitset.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_buf.o: src/s_buf.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_cs.o: src/s_cs.c include/s_cs.h include/s_mutex.h include/s_lock.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_lockp.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_dom.o: src/s_dom.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h include/s_util.h \
+  include/s_itr.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_queue.h include/s_dom.h include/s_xml.h \
+  src/s_xmlp.h
+$(RELEASE_BUILD_DIR)/s_event.o: src/s_event.c include/s_event.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_file.o: src/s_file.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_util.h include/s_itr.h include/s_vector.h \
+  include/s_random.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_fio.o: src/s_fio.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_fio.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_fmem.o: src/s_fmem.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_fnull.o: src/s_fnull.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_fsock.o: src/s_fsock.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_fsplit.o: src/s_fsplit.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_fsub.o: src/s_fsub.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_futil.o: src/s_futil.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h src/s_iop.h include/s_futil.h \
+  src/s_itrp.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_fwrap.o: src/s_fwrap.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_fzio.o: src/s_fzio.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_fzip.o: src/s_fzip.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_hash.o: src/s_hash.c include/s_hash.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_util.h \
+  include/s_buf.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h src/s_itrp.h src/s_libp.h \
+  include/s_thread.h
+$(RELEASE_BUILD_DIR)/s_hist.o: src/s_hist.c include/s_hist.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_file.h include/s_buf.h \
+  include/s_strbuf.h include/s_util.h include/s_itr.h include/s_vector.h \
+  include/s_random.h include/s_futil.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_init.o: src/s_init.c include/s_lib.h include/s_base32.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_base64.h \
+  include/s_bitset.h include/s_cs.h include/s_mutex.h include/s_lock.h \
+  include/s_dom.h include/s_xml.h include/s_event.h include/s_futil.h \
+  include/s_itr.h include/s_hash.h include/s_hist.h include/s_math.h \
+  include/s_md.h include/s_mem.h include/s_ntutil.h include/s_opt.h \
+  include/s_vector.h include/s_random.h include/s_prop.h \
+  include/s_queue.h include/s_ring.h include/s_rwlock.h \
+  include/s_thread.h include/s_stack.h include/s_util.h include/s_wkq.h
+$(RELEASE_BUILD_DIR)/s_itr.o: src/s_itr.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(RELEASE_BUILD_DIR)/s_itra.o: src/s_itra.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(RELEASE_BUILD_DIR)/s_itrc.o: src/s_itrc.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(RELEASE_BUILD_DIR)/s_itrf.o: src/s_itrf.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(RELEASE_BUILD_DIR)/s_itrs.o: src/s_itrs.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(RELEASE_BUILD_DIR)/s_lib.o: src/s_lib.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_libp.h
+$(RELEASE_BUILD_DIR)/s_lock.o: src/s_lock.c include/s_lock.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_lockp.h include/s_thread.h \
+  include/s_mutex.h include/s_rwlock.h include/s_queue.h include/s_itr.h \
+  include/s_event.h include/s_cs.h
+$(RELEASE_BUILD_DIR)/s_math.o: src/s_math.c include/s_math.h include/s_strbuf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h
+$(RELEASE_BUILD_DIR)/s_md.o: src/s_md.c src/s_mdp.h include/s_md.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h
+$(RELEASE_BUILD_DIR)/s_md5.o: src/s_md5.c src/s_mdp.h include/s_md.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mem.h \
+  include/s_buf.h
+$(RELEASE_BUILD_DIR)/s_mem.o: src/s_mem.c include/s_def.h include/s_os.h include/s_unix.h \
+  include/s_ver.h include/s_util.h include/s_itr.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_libp.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_mfp.o: src/s_mfp.c include/s_math.h include/s_strbuf.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h
+$(RELEASE_BUILD_DIR)/s_mpm.o: src/s_mpm.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_math.h include/s_strbuf.h
+$(RELEASE_BUILD_DIR)/s_mutex.o: src/s_mutex.c include/s_mutex.h include/s_lock.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_lockp.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_net.o: src/s_net.c include/s_lib.h include/s_base32.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_base64.h \
+  include/s_bitset.h include/s_cs.h include/s_mutex.h include/s_lock.h \
+  include/s_dom.h include/s_xml.h include/s_event.h include/s_futil.h \
+  include/s_itr.h include/s_hash.h include/s_hist.h include/s_math.h \
+  include/s_md.h include/s_mem.h include/s_ntutil.h include/s_opt.h \
+  include/s_vector.h include/s_random.h include/s_prop.h \
+  include/s_queue.h include/s_ring.h include/s_rwlock.h \
+  include/s_thread.h include/s_stack.h include/s_util.h include/s_wkq.h
+$(RELEASE_BUILD_DIR)/s_opt.o: src/s_opt.c include/s_opt.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_file.h include/s_buf.h \
+  include/s_strbuf.h include/s_vector.h include/s_itr.h \
+  include/s_random.h include/s_mem.h include/s_util.h include/s_futil.h \
+  include/s_queue.h
+$(RELEASE_BUILD_DIR)/s_parse.o: src/s_parse.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(RELEASE_BUILD_DIR)/s_prop.o: src/s_prop.c include/s_prop.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_queue.h include/s_itr.h \
+  include/s_hash.h include/s_file.h include/s_buf.h include/s_strbuf.h \
+  include/s_xml.h include/s_util.h include/s_vector.h include/s_random.h \
+  include/s_futil.h src/s_itrp.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_propx.o: src/s_propx.c include/s_xml.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_strbuf.h include/s_file.h \
+  include/s_buf.h include/s_prop.h include/s_queue.h include/s_itr.h \
+  include/s_hash.h
+$(RELEASE_BUILD_DIR)/s_ring.o: src/s_ring.c include/s_ring.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_rwlock.o: src/s_rwlock.c include/s_rwlock.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_queue.h \
+  include/s_itr.h include/s_thread.h include/s_event.h include/s_mutex.h \
+  include/s_lock.h src/s_lockp.h include/s_util.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_queue.o: src/s_queue.c include/s_queue.h include/s_itr.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_itrp.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_random.o: src/s_random.c include/s_random.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mutex.h \
+  include/s_lock.h include/s_util.h include/s_itr.h include/s_buf.h \
+  include/s_vector.h include/s_file.h include/s_strbuf.h src/s_libp.h \
+  include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_sha1.o: src/s_sha1.c src/s_mdp.h include/s_md.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mem.h \
+  include/s_buf.h
+$(RELEASE_BUILD_DIR)/s_stack.o: src/s_stack.c include/s_stack.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_str.o: src/s_str.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_strbuf.o: src/s_strbuf.c include/s_strbuf.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_util.h \
+  include/s_itr.h include/s_buf.h include/s_vector.h include/s_random.h \
+  include/s_file.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_thread.o: src/s_thread.c src/s_libp.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_thrp.h include/s_thread.h \
+  include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_time.o: src/s_time.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(RELEASE_BUILD_DIR)/s_trace.o: src/s_trace.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_util.h include/s_itr.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(RELEASE_BUILD_DIR)/s_utf8.o: src/s_utf8.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_util.o: src/s_util.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(RELEASE_BUILD_DIR)/s_vector.o: src/s_vector.c include/s_vector.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_itr.h \
+  include/s_random.h src/s_itrp.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_wkq.o: src/s_wkq.c include/s_wkq.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_event.h include/s_queue.h \
+  include/s_itr.h include/s_mutex.h include/s_lock.h include/s_thread.h \
+  include/s_util.h include/s_buf.h include/s_vector.h include/s_random.h \
+  include/s_file.h include/s_strbuf.h src/s_libp.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/s_xml.o: src/s_xml.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_xmlp.h include/s_xml.h \
+  include/s_strbuf.h include/s_file.h include/s_buf.h include/s_util.h \
+  include/s_itr.h include/s_vector.h include/s_random.h
+$(RELEASE_BUILD_DIR)/s_xmlp.o: src/s_xmlp.c src/s_xmlp.h include/s_xml.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_strbuf.h \
+  include/s_file.h include/s_buf.h include/s_util.h include/s_itr.h \
+  include/s_vector.h include/s_random.h include/s_mem.h \
+  ../expat/lib/expat.h ../expat/lib/expat_external.h
+$(RELEASE_BUILD_DIR)/u_event.o: src/unix/u_event.c include/s_event.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h
+$(RELEASE_BUILD_DIR)/u_furl.o: src/unix/u_furl.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h include/s_util.h include/s_itr.h \
+  include/s_vector.h include/s_random.h include/s_event.h \
+  include/s_thread.h
+$(RELEASE_BUILD_DIR)/u_futil.o: src/unix/u_futil.c include/s_util.h include/s_itr.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_buf.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_iop.h include/s_futil.h src/s_itrp.h \
+  include/s_mem.h
+$(RELEASE_BUILD_DIR)/u_mutex.o: src/unix/u_mutex.c include/s_mutex.h include/s_lock.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_lockp.h
+$(RELEASE_BUILD_DIR)/u_thread.o: src/unix/u_thread.c src/s_libp.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h src/s_thrp.h \
+  include/s_thread.h include/s_mem.h
+$(RELEASE_BUILD_DIR)/u_trace.o: src/unix/u_trace.c include/s_util.h include/s_itr.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_buf.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(PROFILE_BUILD_DIR)/s_base32.o: src/s_base32.c include/s_base32.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_base64.o: src/s_base64.c include/s_base64.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_bitset.o: src/s_bitset.c include/s_bitset.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_buf.o: src/s_buf.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_cs.o: src/s_cs.c include/s_cs.h include/s_mutex.h include/s_lock.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_lockp.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_dom.o: src/s_dom.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h include/s_util.h \
+  include/s_itr.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_queue.h include/s_dom.h include/s_xml.h \
+  src/s_xmlp.h
+$(PROFILE_BUILD_DIR)/s_event.o: src/s_event.c include/s_event.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_file.o: src/s_file.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_util.h include/s_itr.h include/s_vector.h \
+  include/s_random.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_fio.o: src/s_fio.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_fio.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_fmem.o: src/s_fmem.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_fnull.o: src/s_fnull.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_fsock.o: src/s_fsock.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_fsplit.o: src/s_fsplit.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_fsub.o: src/s_fsub.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_futil.o: src/s_futil.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h src/s_iop.h include/s_futil.h \
+  src/s_itrp.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_fwrap.o: src/s_fwrap.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_fzio.o: src/s_fzio.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_fzip.o: src/s_fzip.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_fio.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_hash.o: src/s_hash.c include/s_hash.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_util.h \
+  include/s_buf.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h src/s_itrp.h src/s_libp.h \
+  include/s_thread.h
+$(PROFILE_BUILD_DIR)/s_hist.o: src/s_hist.c include/s_hist.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_file.h include/s_buf.h \
+  include/s_strbuf.h include/s_util.h include/s_itr.h include/s_vector.h \
+  include/s_random.h include/s_futil.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_init.o: src/s_init.c include/s_lib.h include/s_base32.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_base64.h \
+  include/s_bitset.h include/s_cs.h include/s_mutex.h include/s_lock.h \
+  include/s_dom.h include/s_xml.h include/s_event.h include/s_futil.h \
+  include/s_itr.h include/s_hash.h include/s_hist.h include/s_math.h \
+  include/s_md.h include/s_mem.h include/s_ntutil.h include/s_opt.h \
+  include/s_vector.h include/s_random.h include/s_prop.h \
+  include/s_queue.h include/s_ring.h include/s_rwlock.h \
+  include/s_thread.h include/s_stack.h include/s_util.h include/s_wkq.h
+$(PROFILE_BUILD_DIR)/s_itr.o: src/s_itr.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(PROFILE_BUILD_DIR)/s_itra.o: src/s_itra.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(PROFILE_BUILD_DIR)/s_itrc.o: src/s_itrc.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(PROFILE_BUILD_DIR)/s_itrf.o: src/s_itrf.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(PROFILE_BUILD_DIR)/s_itrs.o: src/s_itrs.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_itrp.h include/s_itr.h
+$(PROFILE_BUILD_DIR)/s_lib.o: src/s_lib.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_libp.h
+$(PROFILE_BUILD_DIR)/s_lock.o: src/s_lock.c include/s_lock.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_lockp.h include/s_thread.h \
+  include/s_mutex.h include/s_rwlock.h include/s_queue.h include/s_itr.h \
+  include/s_event.h include/s_cs.h
+$(PROFILE_BUILD_DIR)/s_math.o: src/s_math.c include/s_math.h include/s_strbuf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h
+$(PROFILE_BUILD_DIR)/s_md.o: src/s_md.c src/s_mdp.h include/s_md.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h
+$(PROFILE_BUILD_DIR)/s_md5.o: src/s_md5.c src/s_mdp.h include/s_md.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mem.h \
+  include/s_buf.h
+$(PROFILE_BUILD_DIR)/s_mem.o: src/s_mem.c include/s_def.h include/s_os.h include/s_unix.h \
+  include/s_ver.h include/s_util.h include/s_itr.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_libp.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_mfp.o: src/s_mfp.c include/s_math.h include/s_strbuf.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h
+$(PROFILE_BUILD_DIR)/s_mpm.o: src/s_mpm.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_math.h include/s_strbuf.h
+$(PROFILE_BUILD_DIR)/s_mutex.o: src/s_mutex.c include/s_mutex.h include/s_lock.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_lockp.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_net.o: src/s_net.c include/s_lib.h include/s_base32.h include/s_buf.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_file.h include/s_strbuf.h include/s_base64.h \
+  include/s_bitset.h include/s_cs.h include/s_mutex.h include/s_lock.h \
+  include/s_dom.h include/s_xml.h include/s_event.h include/s_futil.h \
+  include/s_itr.h include/s_hash.h include/s_hist.h include/s_math.h \
+  include/s_md.h include/s_mem.h include/s_ntutil.h include/s_opt.h \
+  include/s_vector.h include/s_random.h include/s_prop.h \
+  include/s_queue.h include/s_ring.h include/s_rwlock.h \
+  include/s_thread.h include/s_stack.h include/s_util.h include/s_wkq.h
+$(PROFILE_BUILD_DIR)/s_opt.o: src/s_opt.c include/s_opt.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_file.h include/s_buf.h \
+  include/s_strbuf.h include/s_vector.h include/s_itr.h \
+  include/s_random.h include/s_mem.h include/s_util.h include/s_futil.h \
+  include/s_queue.h
+$(PROFILE_BUILD_DIR)/s_parse.o: src/s_parse.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(PROFILE_BUILD_DIR)/s_prop.o: src/s_prop.c include/s_prop.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_queue.h include/s_itr.h \
+  include/s_hash.h include/s_file.h include/s_buf.h include/s_strbuf.h \
+  include/s_xml.h include/s_util.h include/s_vector.h include/s_random.h \
+  include/s_futil.h src/s_itrp.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_propx.o: src/s_propx.c include/s_xml.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_strbuf.h include/s_file.h \
+  include/s_buf.h include/s_prop.h include/s_queue.h include/s_itr.h \
+  include/s_hash.h
+$(PROFILE_BUILD_DIR)/s_ring.o: src/s_ring.c include/s_ring.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_rwlock.o: src/s_rwlock.c include/s_rwlock.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_queue.h \
+  include/s_itr.h include/s_thread.h include/s_event.h include/s_mutex.h \
+  include/s_lock.h src/s_lockp.h include/s_util.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_queue.o: src/s_queue.c include/s_queue.h include/s_itr.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_itrp.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_random.o: src/s_random.c include/s_random.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mutex.h \
+  include/s_lock.h include/s_util.h include/s_itr.h include/s_buf.h \
+  include/s_vector.h include/s_file.h include/s_strbuf.h src/s_libp.h \
+  include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_sha1.o: src/s_sha1.c src/s_mdp.h include/s_md.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_mem.h \
+  include/s_buf.h
+$(PROFILE_BUILD_DIR)/s_stack.o: src/s_stack.c include/s_stack.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_str.o: src/s_str.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_strbuf.o: src/s_strbuf.c include/s_strbuf.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_util.h \
+  include/s_itr.h include/s_buf.h include/s_vector.h include/s_random.h \
+  include/s_file.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_thread.o: src/s_thread.c src/s_libp.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_thrp.h include/s_thread.h \
+  include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_time.o: src/s_time.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(PROFILE_BUILD_DIR)/s_trace.o: src/s_trace.c include/s_buf.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_util.h include/s_itr.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(PROFILE_BUILD_DIR)/s_utf8.o: src/s_utf8.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_util.o: src/s_util.c include/s_util.h include/s_itr.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
+$(PROFILE_BUILD_DIR)/s_vector.o: src/s_vector.c include/s_vector.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_itr.h \
+  include/s_random.h src/s_itrp.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_wkq.o: src/s_wkq.c include/s_wkq.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h include/s_event.h include/s_queue.h \
+  include/s_itr.h include/s_mutex.h include/s_lock.h include/s_thread.h \
+  include/s_util.h include/s_buf.h include/s_vector.h include/s_random.h \
+  include/s_file.h include/s_strbuf.h src/s_libp.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/s_xml.o: src/s_xml.c include/s_mem.h include/s_def.h include/s_os.h \
+  include/s_unix.h include/s_ver.h src/s_xmlp.h include/s_xml.h \
+  include/s_strbuf.h include/s_file.h include/s_buf.h include/s_util.h \
+  include/s_itr.h include/s_vector.h include/s_random.h
+$(PROFILE_BUILD_DIR)/s_xmlp.o: src/s_xmlp.c src/s_xmlp.h include/s_xml.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_strbuf.h \
+  include/s_file.h include/s_buf.h include/s_util.h include/s_itr.h \
+  include/s_vector.h include/s_random.h include/s_mem.h \
+  ../expat/lib/expat.h ../expat/lib/expat_external.h
+$(PROFILE_BUILD_DIR)/u_event.o: src/unix/u_event.c include/s_event.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h
+$(PROFILE_BUILD_DIR)/u_furl.o: src/unix/u_furl.c src/s_fio.h include/s_file.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h include/s_buf.h \
+  include/s_strbuf.h include/s_mem.h include/s_util.h include/s_itr.h \
+  include/s_vector.h include/s_random.h include/s_event.h \
+  include/s_thread.h
+$(PROFILE_BUILD_DIR)/u_futil.o: src/unix/u_futil.c include/s_util.h include/s_itr.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_buf.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h src/s_iop.h include/s_futil.h src/s_itrp.h \
+  include/s_mem.h
+$(PROFILE_BUILD_DIR)/u_mutex.o: src/unix/u_mutex.c include/s_mutex.h include/s_lock.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  src/s_lockp.h
+$(PROFILE_BUILD_DIR)/u_thread.o: src/unix/u_thread.c src/s_libp.h include/s_def.h \
+  include/s_os.h include/s_unix.h include/s_ver.h src/s_thrp.h \
+  include/s_thread.h include/s_mem.h
+$(PROFILE_BUILD_DIR)/u_trace.o: src/unix/u_trace.c include/s_util.h include/s_itr.h \
+  include/s_def.h include/s_os.h include/s_unix.h include/s_ver.h \
+  include/s_buf.h include/s_vector.h include/s_random.h include/s_file.h \
+  include/s_strbuf.h
