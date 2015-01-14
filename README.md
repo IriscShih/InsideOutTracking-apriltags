@@ -1,4 +1,5 @@
 InsideOutTracking
 =================
 
-marker-based inside-out tracking algorithm
+Marker-based inside-out tracking algorithm by applying Apriltags method.
+ 
