@@ -1,0 +1,8 @@
+/Users/pearl790131/apriltags-build/CMakeFiles/ALL_BUILD.dir
+/Users/pearl790131/apriltags-build/CMakeFiles/OpenIGTLink.dir
+/Users/pearl790131/apriltags-build/CMakeFiles/ZERO_CHECK.dir
+/Users/pearl790131/apriltags-build/CMakeFiles/apriltags.dir
+/Users/pearl790131/apriltags-build/example/CMakeFiles/apriltags_demo.dir
+/Users/pearl790131/apriltags-build/CMakeFiles/igtlutil.dir
+/Users/pearl790131/apriltags-build/example/CMakeFiles/imu.dir
+/Users/pearl790131/apriltags-build/CMakeFiles/tmp.dir

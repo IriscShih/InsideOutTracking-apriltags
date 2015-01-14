@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlMessageFactory.cxx \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlMessageFactory.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlObject.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlLightObject.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlSmartPointer.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlMacro.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlWin32Header.h \
+  /Users/pearl790131/apriltags/igtl/igtlConfigure.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlSimpleFastMutexLock.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlMessageBase.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlObjectFactory.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlObjectFactoryBase.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlCreateObjectFunction.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlMath.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlTimeStamp.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlTypes.h \
+  /Users/pearl790131/apriltags/igtl/igtlTypeConfig.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlMessageHeader.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlTransformMessage.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlPositionMessage.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlImageMessage.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlClientSocket.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlSocket.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlStatusMessage.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlPointMessage.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlTrajectoryMessage.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlStringMessage.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlTrackingDataMessage.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlQuaternionTrackingDataMessage.h \
+  /Users/pearl790131/apriltags/OpenIGTLink/Source/igtlCapabilityMessage.h
